@@ -1,4 +1,12 @@
 import { Fragment } from "react";
+import img1 from '../assets/img1.jpg';
+import img2 from '../assets/img2.jpg';
+import img3 from '../assets/img3.jpg';
+import img4 from '../assets/img4.jpg';
+import img5 from '../assets/img5.jpg';
+import img6 from '../assets/img6.jpg';
+import img7 from '../assets/img7.jpg';
+import img8 from '../assets/img8.jpg';
 
 const GalleryGrid = ({ selectedCategory, onImageClick }) => {
   const galleryItems = [
@@ -6,56 +14,56 @@ const GalleryGrid = ({ selectedCategory, onImageClick }) => {
       id: 1,
       category: "team",
       title: "Team Vibes",
-      image: "./assets/img1.jpg",
+      image: img1,
       description: "Where ideas collide and innovation happens!",
     },
     {
       id: 2,
       category: "campaigns",
       title: "Creative Campaigns",
-      image: "./assets/img2.jpg",
+      image: img2,
       description: "Adventure time with the squad!",
     },
     {
       id: 3,
       category: "play",
       title: "Work Hard, Play Hard",
-      image: "./assets/img3.jpg",
+      image: img3,
       description: "Learning together, growing together!",
     },
     {
       id: 4,
       category: "behind",
       title: "Behind The Scenes",
-      image: "./assets/img4.jpg",
+      image: img4,
       description: "Building stronger bonds together!",
     },
     {
       id: 5,
       category: "team",
       title: "Team Collaboration",
-      image: "./assets/img5.jpg",
+      image: img5,
       description: "Working together towards success!",
     },
     {
       id: 6,
       category: "campaigns",
       title: "Creative Moments",
-      image: "./assets/img6.jpg",
+      image: img6,
       description: "Capturing creative excellence!",
     },
     {
       id: 7,
       category: "play",
       title: "Fun Times",
-      image: "./assets/img7.jpg",
+      image: img7,
       description: "Enjoying every moment together!",
     },
     {
       id: 8,
       category: "behind",
       title: "Behind the Magic",
-      image: "./assets/img8.jpg",
+      image: img8,
       description: "The making of great memories!",
     },
     {
